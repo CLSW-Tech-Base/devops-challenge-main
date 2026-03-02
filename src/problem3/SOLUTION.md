@@ -17,3 +17,5 @@ Preventions:
 Case 1: lower down the alert, instead of 99% (which is super critical) set to 75% so that can execute proactive data cleanup (before causing service down as 99% most likely unable to maintain the service availablity)
 
 Case 2: ship the log file to external location from time to time (or when the alert triggered), to keep the local log file minimal
+
+[go back to main](/README.md)

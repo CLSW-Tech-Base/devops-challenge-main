@@ -5,3 +5,5 @@ Provide your CLI command here:
 # assume the data is not fix case
 grep -i "TSLA" transaction-log.txt | grep -i "sell" > ./output.txt
 ```
+
+[go back to main](/README.md)

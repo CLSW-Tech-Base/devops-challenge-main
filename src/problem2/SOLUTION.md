@@ -17,3 +17,5 @@ Cloud services:
 
 Plans for Scaling:
 1. Deploy the code with docker containers. Instead of using the general EC2 deployment, we can package the application into docker so it can be deploy faster.
+
+[go back to main](/README.md)
