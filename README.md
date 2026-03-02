@@ -10,6 +10,9 @@ You can either provide a link to an online repository, attach the solution in yo
 
 ## Solutions
 [Problem 1](/src/problem1/SOLUTION.md)
+
 [Problem 2](/src/problem2/SOLUTION.md)
+
 [Problem 3](/src/problem3/SOLUTION.md)
+
 [Problem 4](/src/problem4/SOLUTION.md)

@@ -18,4 +18,13 @@
 >
 > refer to [updated yaml file](docker-compose-fix.yml)
 
+# Monitor to be added
+1. trigger alert if API failed to connection with the required service(s).
+2. analyse the log of services after starting the service. alert if the log file contains specific strings.
+
+# Prevention in Production
+1. using Terraform to deploy the service(s) to ensure the environment always startup in consistence way
+2. validated connection between services and have a recovery process in application level (like trying to reconnect the service after certain period if failed to connect instead of bring down the service)
+3. implement automated intergration testing (via pipeline) before merge into production / main branch to ensure all the changes does not break any existing working functions.
+
 [go back to main](/README.md)
